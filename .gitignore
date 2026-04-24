@@ -1,0 +1,33 @@
+# Claude Code
+.claude/settings.local.json
+.claude/.cache/
+
+# 플러그인 사용자의 아티팩트 폴더 (플러그인 저장소에 포함하지 않음)
+.plan/
+
+# DR 프로젝트 이전 작업물 (플러그인 개발과 무관)
+preview (2)-updated.html
+DR_프로토타입_QA_커버리지_리포트.pdf
+수요반응자원 시스템 _목업.html
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 임시 파일
+*.tmp
+*.bak
+*~

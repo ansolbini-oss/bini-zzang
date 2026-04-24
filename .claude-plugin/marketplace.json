@@ -1,0 +1,19 @@
+{
+  "name": "bini-zzang",
+  "owner": {
+    "name": "bini",
+    "email": "gf_ai@60hz.io"
+  },
+  "metadata": {
+    "description": "bini쨩(bini-zzang) 플러그인 배포 마켓플레이스. 13명 전문 에이전트가 기획 완결성·정합성을 보장하는 풀 파이프라인.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "bini-zzang",
+      "source": ".",
+      "description": "13명 전문 에이전트 팀이 기획 완결성·정합성을 보장하는 풀 파이프라인 플러그인. 시장조사→전략→IA→기능명세→정책→KPI→리스크 + 정합성 검증까지 6 Phase. 모순 발견 시 사용자 확인 후 재개.",
+      "version": "0.1.0"
+    }
+  ]
+}
