@@ -24,12 +24,12 @@ bini쨩의 차별화 4축:
 Claude Code 입력창에서 아래 3줄을 순서대로 실행:
 
 ```
-/plugin marketplace add 60hz-io/bini-zzang
+/plugin marketplace add ansolbini-oss/bini-zzang
 /plugin install bini-zzang@bini-zzang
 /reload-plugins
 ```
 
-> **Note**: `60hz-io/bini-zzang`은 GitHub `<owner>/<repo>` 형식. 본인이 fork/clone한 경우 그에 맞춰 바꿔주세요.
+> **Note**: `ansolbini-oss/bini-zzang`은 GitHub `<owner>/<repo>` 형식. 본인이 fork/clone한 경우 그에 맞춰 바꿔주세요.
 
 성공하면 `/help` 실행 시 `/bini-zzang:기획` 등 5개 커맨드와 13명 에이전트가 노출됩니다.
 
@@ -39,7 +39,7 @@ Claude Code 입력창에서 아래 3줄을 순서대로 실행:
 
 ```bash
 # 1) 레포 clone
-git clone https://github.com/60hz-io/bini-zzang.git ~/bini-zzang
+git clone https://github.com/ansolbini-oss/bini-zzang.git ~/bini-zzang
 
 # 2) Claude Code에서
 /plugin marketplace add ~/bini-zzang
